@@ -1,2 +1,1 @@
-string = input('Enter a string: ')
-print()
+enter = str(input('Enter a string: '))
