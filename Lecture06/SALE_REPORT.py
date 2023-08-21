@@ -19,9 +19,9 @@ def main():
         infile.close()
 
         # Print the total.
-        print(format(total, '.2f'))
+        print(format(total, ',.2f'))
 
-    except IDError:
+    except IOError:
         print('An error occured trying to read tehfile.')
 
     except ValueError:
