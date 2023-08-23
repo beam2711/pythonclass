@@ -1,0 +1,3 @@
+def sumTwoSmallestNums():
+    return
+print
