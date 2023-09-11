@@ -8,7 +8,7 @@ key = 'Pluto'
 if key in phonebook:
     print(phonebook['Pluto'])
 else:
-    print(key + 'not in phonebook')
+    print(key + ' not in phonebook')
 
 phonebook['Simpson'] = '777-4567'
 phonebook['Pluto'] = '777-4444'
